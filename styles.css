@@ -20,6 +20,7 @@ body {
     grid-auto-rows: 3.75em;
     gap: .38em;
     justify-content: center;
+    flex-grow: 0.15;
 }
 
 .key {
@@ -77,14 +78,14 @@ body {
     justify-content: center;
     align-content: center;
     flex-grow: 1;
-    grid-template-columns: repeat(5, 4em);
-    grid-template-rows: repeat(6, 4em);
+    grid-template-columns: repeat(5, 7em);
+    grid-template-rows: repeat(6, 7em);
     gap: .25em;
     margin-bottom: 1em;
 }
 
 .tile {
-    font-size: 2em;
+    font-size: 4em;
     color: white;
     border: .1em solid hsl(240, 2%, 23%);
     text-transform: uppercase;
@@ -208,3 +209,19 @@ body {
 .alert.hide {
     opacity: 0;
 }
+
+@media only screen and (min-width: 480px) {
+    .guess-grid {
+        grid-template-columns: repeat(5, 4em);
+        grid-template-rows: repeat(6, 4em);
+    }
+
+    .keyboard {
+        grid-auto-rows: 3.75em;
+        flex-grow: 0.15;
+    }
+
+    .tile {
+        font-size: 2em;
+    }
+  }
