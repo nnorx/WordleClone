@@ -15317,6 +15317,7 @@ function stopInteraction() {
 
 // handle on-screen keyboard clicks
 function handleMouseClick(e) {
+    console.log(e.target)
     if (e.target.matches("[data-key]")) {
         pressKey(e.target.dataset.key)
         return
