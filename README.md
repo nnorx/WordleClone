@@ -1,6 +1,6 @@
 # WordleClone
 
-A recreation of the word guessing game Wordle. Written with JavaScript, HTML, and CSS.
+A recreation of the word guessing game Wordle. Written with JavaScript, HTML, and CSS. Deployed on GitHub Pages at: [nnorx.github.io/WordleClone/](https://nnorx.github.io/WordleClone/).
 
 # What I Learned
 
